@@ -43,12 +43,8 @@ resource "aws_dynamodb_table" "terraform_locks" {
   name           = var.dynamodb_name
   billing_mode   = var.billing_mode_dynamodb
   hash_key       = "LockID"
-  range_key      = "GameTitle"
-
   attribute {
     name = "LockID"
     type = "S"
   }
-
- 
 }
