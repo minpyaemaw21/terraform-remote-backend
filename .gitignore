@@ -1,0 +1,13 @@
+#directories
+.terraform/
+
+#files
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+#logs
+*.log
+
+#MAC .DS_Store files
+.DS_Store
